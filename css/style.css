@@ -10,7 +10,9 @@
 }
 body{
     background: var(--Dark01);
+    margin: 0px 0px 0px 0px;
 }
 .header{
     background: var(--darkBlue);
+    display: flex;
 }
