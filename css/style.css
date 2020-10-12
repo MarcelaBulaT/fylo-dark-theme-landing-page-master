@@ -8,3 +8,11 @@
     --Botones: #339ECC; /* color de los botones de pagina*/
     --Letra: #FFFFFF; /* color de letra*/
 }
+body{
+    background: var(--Dark01);
+    margin: 0px 0px 0px 0px;
+}
+.header{
+    background: var(--darkBlue);
+    display: flex;
+}
