@@ -1,3 +1,17 @@
 :root {
-    
+    /* Colores primarios*/
+
+    --darkBlue: #1B2330; /* color de intro y color fond de correo*/
+    --Dark01: #171E2A; /* color de fondo de pantalla principal*/
+    --Dark02: #0A1423; /* color de fondo de pie */
+    --Dark03: #20293B; /* color testimonios recuadro */
+
+    /* Colores secundarios*/
+
+    --iconos: #64E1D9; /* color de los icones de pagina*/
+    --Botones: #339ECC; /* color de los botones de pagina*/
+
+    /* Colores de letra*/
+
+    --Letra: #FFFFFF; /* color de letra*/
 }
