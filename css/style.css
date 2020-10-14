@@ -12,11 +12,13 @@ body{
     background: var(--Dark01);
     margin: 0px 0px 0px 0px;
     height: 1440px;
+    font-family: "Open Sans",sans-serif;
+    color: var(--Letra)
 }
 .header{
+    background:url("./images/bg-curvy-desktop.svg");
     background: var(--darkBlue);
     display: flex;
-    height: 400px;
     width: 1440px;
     
 }
@@ -38,4 +40,23 @@ body{
     display: block;  
     color: var(--Letra); 
     font-family: Raleway;
+}
+.principal{
+    background: var(--darkBlue);
+    width: 1440px;
+}
+.image-principal{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 14pt;
+}
+.subtitle{
+    margin:0px 170px 40px 170px;
+    display: flex;
+    justify-content: center;
+    font-size: 14pt;
 }
