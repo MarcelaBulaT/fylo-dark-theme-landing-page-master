@@ -11,8 +11,31 @@
 body{
     background: var(--Dark01);
     margin: 0px 0px 0px 0px;
+    height: 1440px;
 }
 .header{
     background: var(--darkBlue);
     display: flex;
+    height: 400px;
+    width: 1440px;
+    
+}
+.logo{
+    margin: 10px 10px 10px 10px;
+}
+
+.menu ul li {
+    display: inline;  
+    display: inline-block;
+    word-spacing: 4pt;   
+    position: relative;
+    left:850px;
+}
+.menu ul li a{
+    font-size: 14pt; 
+    text-decoration: none;
+    padding: 0px 10px 0px 0px;
+    display: block;  
+    color: var(--Letra); 
+    font-family: Raleway;
 }
