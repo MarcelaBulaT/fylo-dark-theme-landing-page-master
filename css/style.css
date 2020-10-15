@@ -4,7 +4,7 @@
     --Dark01: #171E2A; /* color de fondo de pantalla principal*/
     --Dark02: #0A1423; /* color de fondo de pie */
     --Dark03: #20293B; /* color testimonios recuadro */
-    --iconos: #64E1D9; /* color de los icones de pagina*/
+    --iconos: #64E1D9; /* color de los iconos de pagina*/
     --Botones: #339ECC; /* color de los botones de pagina*/
     --Letra: #FFFFFF; /* color de letra*/
 }
@@ -16,7 +16,6 @@ body{
 .header{
     background: var(--darkBlue);
     display: flex;
-    height: 400px;
     width: 1440px;
     
 }
