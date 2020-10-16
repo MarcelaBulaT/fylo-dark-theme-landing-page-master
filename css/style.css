@@ -16,7 +16,6 @@ body{
     color: var(--Letra)
 }
 .header{
-    background:url("./images/bg-curvy-desktop.svg");
     background: var(--darkBlue);
     display: flex;
     width: 1440px;
@@ -69,8 +68,66 @@ body{
     font-family: "Open Sans",sans-serif;
     color: var(--Letra)
 }
-.features{
+.features-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh;
+    justify-items: center;
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.feature {
+    width: 60%;   
+    text-align: center;
+}
+
+.team {
     display: flex;
-    justify-items: space-around;
-    margin: 0px 400px 0px 400px;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+}
+
+.info-team {
+    text-align: left;
+}
+
+.image-team {
+    text-align: center;
+}
+
+.arrowTxt{
+    color: var(--iconos);
+    text-decoration: none;
+}
+
+.signIn-principal {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.footer-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a.social {
+    text-decoration: none;
+    color: var(--Letra);
+
+}
+
+.social-footer-icons a.social {
+    display: inline-block;
+    background: lightgreen;
+}
+
+.container {
+    display: grid;
 }
