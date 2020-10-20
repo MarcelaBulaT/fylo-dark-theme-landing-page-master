@@ -1,0 +1,18 @@
+@media screen and (max-width: 375px) { 
+    /*Reglas CSS*/ 
+      
+
+.features-principal{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+} 
