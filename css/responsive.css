@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) and (max-width : 375px){ 
+@media screen and  (max-width : 375px){ 
     /*Reglas CSS*/ 
       
 body{
@@ -34,14 +34,14 @@ body{
     justify-items: center;
     background-image: url(../images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
-    grid-gap: 65px;
+    grid-gap: 85px;
     padding: 0px 0px 100px 0px;
 
 }
 
 .feature {
     text-align: center;
-    width: 30%;
+    width: 40%;
 
 }
 .team-principal {
@@ -72,8 +72,8 @@ body{
     grid-template-columns: 2fr;
     background-color:white ;
     background-color: var(--Dark02);
-    grid-gap: 65px;
-    padding: 400px 500px 200px 500px;
+    grid-gap: 35px;
+    padding: 400px 500px 20px 500px;
 }
 .contact-footer{
     background-color: green;
