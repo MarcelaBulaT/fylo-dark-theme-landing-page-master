@@ -56,12 +56,12 @@ z-index: 2;
  z-index: 1;
  top: 313px;
 
- 
 }
 .image-principal{
     display: flex;
     justify-content: center;
 }
+
 .title{
     display: flex;
     justify-content: center;
@@ -92,7 +92,6 @@ z-index: 2;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50vh;
     justify-items: center;
-    
     background-repeat: no-repeat;
 }
 
@@ -159,10 +158,6 @@ z-index: 2;
     padding: 200px 200px 200px 200px;
     grid-gap: 55px;
 }
-
-.location-footer{
-    /*background-color: red;*/
-  }
   .contact-footer{
       /*background-color: green;*/
       display: grid;
@@ -185,15 +180,12 @@ z-index: 2;
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .links-footer1  a{
+  .links-footer1  a, .links-footer2 a{
     text-decoration: none;
     color: var(--Letra);
   }
 
-  .links-footer2 a{
-    text-decoration: none;
-    color: var(--Letra);
-  }
+ 
 
   .social-footer-icons{
     display: grid;
