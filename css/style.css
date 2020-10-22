@@ -16,11 +16,12 @@ body{
 .header{
     background: var(--darkBlue);
     display: flex;
-    width: 1440px;
+    
     
 }
 .logo{
     margin: 10px 10px 10px 10px;
+    left: 300px;
 }
 
 .menu ul li {
@@ -178,4 +179,5 @@ i.fab {
 
 .container {
     display: grid;
+    width: 1440px;
 }
