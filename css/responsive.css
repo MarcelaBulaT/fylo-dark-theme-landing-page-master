@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) { 
+@media screen and  (max-width : 375px){ 
     /*Reglas CSS*/ 
       
 body{
@@ -7,6 +7,25 @@ body{
         font-family: "Open Sans",sans-serif;
         color: var(--Letra);
         font-size: 20px;
+        width: 375px;
+}
+
+.container{
+    display: grid;
+    
+}
+.btnBlue{
+    position: relative;
+    font-size: 14pt;
+    background-color: var(--Botones);
+    margin: 0px 0px 30px 580px;
+    padding: 4px 20px 4px 20px;
+    color: var(--Letra);
+    font-family:"Raleway",sans-serif;
+    font-weight:700px;
+    border:none;
+    border-radius:30px;
+    padding:17px 96px;
 }
 
 .features-principal{
@@ -15,15 +34,65 @@ body{
     justify-items: center;
     background-image: url(../images/bg-curvy-desktop.svg);
     background-repeat: no-repeat;
-    grid-gap: 50px;
+    grid-gap: 85px;
+    padding: 0px 0px 100px 0px;
 
 }
 
 .feature {
     text-align: center;
-    width: 30%;
+    width: 40%;
 
 }
+.team-principal {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 0px 0px 0px 0px;
+}
+.info-team {
+    text-align: center;
+    width: 65%;
+
+}
+.signIn-principal {
+    text-align: center;
+    justify-content: center;
+    margin: 50px 380px 50px 380px;
+    background-color: var(--Dark03);
+    padding: 60px 60px 60px 60px;
+    border-radius:10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: relative;
+    top: 300px;
+
+}
+.footer-principal {
+    display:grid;
+    grid-template-columns: 2fr;
+    background-color:white ;
+    background-color: var(--Dark02);
+    grid-gap: 35px;
+    padding: 400px 500px 20px 500px;
+}
+.contact-footer{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logoend{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px 0px 0px 0px;
+}
+.social-footer-icons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(162, 226, 43);
+    justify-items: center;
+
+  }
+
 
 
 } 
