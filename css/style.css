@@ -90,12 +90,13 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    padding: 0px 0px 200px 0px;
+    padding: 100px 0px 200px 0px;
 }
 
 .info-team {
     text-align: left;
     width: 75%;
+    padding: 100px 100px 100px 100px;
 }
 
 .image-team {
@@ -115,8 +116,7 @@ body{
     border-radius:10px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     position: absolute;
-    top: 1800px;
-
+    top: 1900px;
 }
 
 .email {
@@ -142,26 +142,48 @@ body{
     background-color:white ;
     background-color: var(--Dark02);
     padding: 200px 200px 200px 200px;
+    grid-gap: 55px;
 }
 
 .location-footer{
-    background-color: red;
+    /*background-color: red;*/
   }
   .contact-footer{
-      background-color: green;
-
+      /*background-color: green;*/
+      display: grid;
+      grid-template-rows: 80px 80px;
+  }
+  .contact-phone{
+      display: grid;
+      grid-template-columns: 20px 140px;
+      justify-items: center;
+  }
+  .contact-mail{
+    display: grid;
+    grid-template-columns: 20px 140px;
+    justify-items: center;
   }
   
   .links-footer1 , .links-footer2{
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-
   }
+
+  .links-footer1  a{
+    text-decoration: none;
+    color: var(--Letra);
+  }
+
+  .links-footer2 a{
+    text-decoration: none;
+    color: var(--Letra);
+  }
+
   .social-footer-icons{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgb(162, 226, 43);
+    /*background-color: rgb(162, 226, 43);*/
   }
 
 .social-footer-icons a.social {
@@ -170,7 +192,7 @@ body{
 }
 
 i.fab {
-    border:1px solid white;
+    /*border:1px solid white;*/
     border-radius:50%;
     width:1.5rem;
     height:1.5rem;
@@ -180,4 +202,10 @@ i.fab {
 .container {
     display: grid;
     width: 1440px;
+}
+.logoend{
+    display: grid;
+    grid-template-columns: 40px 200px;
+    justify-items: center;
+    padding: 10px 10px 10px 10px ;
 }
