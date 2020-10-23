@@ -185,8 +185,6 @@ z-index: 2;
     color: var(--Letra);
   }
 
- 
-
   .social-footer-icons{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
