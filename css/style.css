@@ -54,7 +54,7 @@ z-index: 2;
 .ima-wave{
  position: absolute;
  z-index: 1;
- top: 313px;
+ top: 342px;
 
 }
 .image-principal{
@@ -65,13 +65,30 @@ z-index: 2;
 .title{
     display: flex;
     justify-content: center;
-    font-size: 14pt;
+    font-family: 'Raleway', sans-serif;
 }
+
+.title-feature, .title-team, .title-signIn {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
 .subtitle{
     margin:0px 170px 40px 170px;
     display: flex;
     justify-content: center;
     font-size: 14pt;
+    color: rgba(255, 255, 255, 0.815);
+
+}
+
+.subtitle-feature, .subtitle-team, .subtitle-signIn{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.815);
+    font-family: "Open Sans",sans-serif;
 }
 .btnBlue{
     position: relative;
@@ -96,7 +113,7 @@ z-index: 2;
 }
 
 .feature {
-    width: 60%;   
+    width: 50%;   
     text-align: center;
 }
 
