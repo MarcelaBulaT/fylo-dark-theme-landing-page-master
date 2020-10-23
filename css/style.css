@@ -16,13 +16,13 @@ body{
 .header{
     background: var(--darkBlue);
     display: flex; 
-  
+    padding-top: 50px;
 }
 
 
 .logo{
     margin: 10px 10px 10px 10px;
-    left: 300px;
+    padding-left: 50px;
 }
 
 .menu ul li {
