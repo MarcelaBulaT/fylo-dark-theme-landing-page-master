@@ -1,19 +1,42 @@
 @media screen and  (max-width : 375px){ 
     /*Reglas CSS*/ 
       
+    :root {
+        --darkBlue: #1B2330; /* color de intro y color fond de correo*/
+        --Dark01: #171E2A; /* color de fondo de pantalla principal*/
+        --Dark02: #0A1423; /* color de fondo de pie */
+        --Dark03: #20293B; /* color testimonios recuadro */
+        --iconos: #64E1D9; /* color de los icones de pagina*/
+        --Botones: #339ECC; /* color de los botones de pagina*/
+        --Letra: #FFFFFF; /* color de letra*/
+    }
 body{
-        background: var(--Dark01);
+
+        background: var(--darkBlue);
+        margin: 0px 0px 0px 0px;
         font-family: "Open Sans",sans-serif;
         color: var(--Letra);
         font-size: 20px;
+        
+}
+
+.container{
+    display: grid;
+}
+
+.header {
+    margin: 0px 200px 0px 200px;
+    padding: 100px 100px 100px 10px;
+     background: var(--darkBlue);
+    font-family: "Open Sans",sans-serif;
+    color: var(--Letra);
+    font-size: 20px;
     }
 .container {
     width: auto;
 }
 
-.header {
-    padding: 50px 50px 0px 70px;
-}
+
 .img-logo{
     width: auto; 
     height: 90px;
@@ -23,23 +46,39 @@ body{
     display: inline;  
     display: inline-block;
     word-spacing: 4pt;   
-    left:850px;
+    position: relative;
+    left:450px;
+
+    
+
 }
 .menu ul li a{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 100px 100px 10px;
     font-size: 50px; 
     text-decoration: none;
+    grid-gap: 10px;
     color: var(--Letra); 
     font-family: Raleway;
     color: rgba(255, 255, 255, 0.815);
 }
 .principal{
+
+    display: grid;
+    /*background: var(--darkBlue);*/
+
     background: var(--darkBlue);
+
     position: relative;
     padding-top: 200px;
     text-align: center;
     align-items: center;
+
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+    
+    
+
 }
 
 .image-principal{
@@ -55,9 +94,11 @@ body{
 .ima-wave{
      position: absolute;
      z-index: 1;
-     top: 313px;
-    
+     top: 1450px;
+     right: -190px;
+     height: 675px;
     }
+
 
 .img-principal {
     width: auto; 
@@ -81,7 +122,7 @@ body{
 .btnBlue{
     font-size: 40pt;
     background-color: var(--Botones);
-    margin: 0px 0px 30px 580px;
+    margin: 0px 0px 30px 60px;
     padding: 4px 20px 4px 20px;
     color: var(--Letra);
     font-family:"Raleway",sans-serif;
@@ -93,14 +134,14 @@ body{
 
 .features-principal{
     display: grid;
-    background-image: url(../images/bg-curvy-desktop.svg);
+    background:var(--Dark01);
     background-repeat: no-repeat;
     padding-top: 500px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-row-gap: 250px;
     justify-items: center;
-
+    
 }
 
 .feature {
@@ -125,7 +166,9 @@ body{
 .team-principal {
     display: grid;
     grid-template-columns: 1fr;    
-    margin-top: 400px;
+    background:var(--Dark01);
+    
+ 
 }
 
 .img-team {
@@ -153,7 +196,7 @@ body{
     text-align: center;
     justify-content: center;
     background-color: var(--Dark03);
-    padding: 90px 90px 90px 90px;
+    padding: 30px 90px 90px 90px;
     border-radius:10px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     position: relative;
@@ -183,14 +226,11 @@ body{
     grid-template-columns: 2fr;
     background-color: var(--Dark02);
     grid-gap: 35px;
-    padding: 400px 500px 20px 500px;
+    padding: 300px 500px 20px 500px;
     font-size: 60px;
     color: rgba(255, 255, 255, 0.815);
 }
-.contact-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 .img-logo2 {
     width: auto; 
     height: 200px;
@@ -203,17 +243,43 @@ body{
 
 .logoend{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 150px 700px;
     padding: 50px 0px 0px 0px;
+    justify-content: center;
+}
+.contact-footer{
+    /*background-color: green;*/
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.contact-mail{
+    display: grid;
+    grid-template-columns: 20px 740px;
+    justify-items: center;
+  }
+  .contact-phone{
+    display: grid;
+    grid-template-columns: 20px 740px;
+    justify-items: center;
 }
 .links-footer1  a, .links-footer2 a{
+    display: grid;
     text-decoration: none;
+    grid-gap: 4px;
+
   }
 .social-footer-icons{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    grid-gap: 30px;
   }
+
+  .container {
+    display: grid;
+    width: 375px;
+}
+
 
 .social-footer-icons a.social {
     text-decoration: none;
@@ -224,6 +290,7 @@ body{
     height:100px;
     text-align: center;
 }
+
 
 
 } 
