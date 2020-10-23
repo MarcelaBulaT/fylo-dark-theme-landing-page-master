@@ -218,7 +218,7 @@ body{
 .social-footer-icons a.social {
     text-decoration: none;
     color: var(--Letra);
-    border:1px solid white;
+    border:4px solid white;
     border-radius:50%;
     width:100px;
     height:100px;
