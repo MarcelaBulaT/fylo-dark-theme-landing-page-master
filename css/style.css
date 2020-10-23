@@ -196,15 +196,12 @@ z-index: 2;
 .social-footer-icons a.social {
     text-decoration: none;
     color: var(--Letra);
-}
-
-i.fab {
-    /*border:1px solid white;*/
+    border:1px solid white;
     border-radius:50%;
     width:1.5rem;
     height:1.5rem;
     text-align: center;
-  }
+}
 
 .container {
     display: grid;
