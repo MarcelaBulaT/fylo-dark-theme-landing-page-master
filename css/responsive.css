@@ -201,6 +201,8 @@ body{
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     position: relative;
     top: 300px;
+    display: grid;
+    grid-gap: 40px;
 }
 
 .email {
@@ -238,7 +240,7 @@ body{
 
 .location, .phone, .mail{
     width: auto;
-    height: 100px;
+    height: 70px;
 }
 
 .logoend{
@@ -265,7 +267,7 @@ body{
 .links-footer1  a, .links-footer2 a{
     display: grid;
     text-decoration: none;
-    grid-gap: 4px;
+    grid-gap: 15px;
 
   }
 .social-footer-icons{
